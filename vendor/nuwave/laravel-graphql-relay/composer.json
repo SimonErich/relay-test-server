@@ -1,0 +1,31 @@
+{
+    "name": "nuwave/laravel-graphql-relay",
+    "description": "Adds relay specifications to laravel graphql server",
+    "keywords": ["laravel", "relay", "graphql", "react"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher Moore",
+            "email": "chris@nuwavecommerce.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nuwave\\Relay\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.*",
+        "orchestra/testbench": "~3.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nuwave\\Relay\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "folklore/graphql": "^0.3.3",
+        "illuminate/console": "5.1.*"
+    }
+}
